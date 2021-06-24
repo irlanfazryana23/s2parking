@@ -1,0 +1,232 @@
+html, body, {
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+::placeholder {
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 0.5em;
+  opacity: 1;
+}
+input {
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width: 50vw;
+  height: 10vh;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 2em;
+  padding: 0 0 0 20;
+  background: rgba(98,255,25,1);
+  opacity: 0.7000000059604645;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.whole_frame {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 100vw;
+  height: 7.5vh;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.header_green {
+  width: 100vw;
+  height: 10vh;
+  background: rgba(16,199,13,1);
+  opacity: 1;
+  position: fixed;
+  top: 7.5vh;
+  left: 0px;
+  overflow: hidden;
+}
+.body_frame {
+  width: 100vw;
+  height: 0vh;
+  background: rgba(235,235,235,0.7200000286102295);
+  opacity: 1;
+  position: fixed;
+  top: 15vh;
+  left: 0vw;
+  overflow: hidden;
+}
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background: rgba(225,225,225,1);
+  opacity: 1;
+  position: fixed;
+  top: 90vh;
+  left: 0px;
+  overflow: hidden;
+}
+.text_username {
+  width: 50vw;
+  color: rgba(0,0,0,1);
+  position: fixed;
+  top: 25vh;
+  left: 27.5vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 1.2em;
+  opacity: 1;
+  text-align: left;
+}
+.text_forgot {
+  width: 50vw;
+  color: rgba(32,123,17,1);
+  position: fixed;
+  top: 80vh;
+  left: 27vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 1.2em;
+  opacity: 1;
+  text-align: center;
+}
+.text_password {
+  width: 50vw;
+  color: rgba(0,0,0,1);
+  position: fixed;
+  top: 45vh;
+  left: 27.5vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 1.2em;
+  opacity: 1;
+  text-align: left;
+}
+.sign_in_header_text {
+  width: 100vw;
+  color: rgba(255,255,255,1);
+  position: fixed;
+  top: 7vh;
+  left: 0vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 3em;
+  opacity: 1;
+  text-align: center;
+}
+.button {
+  width: 50vw;
+  height: 10vh;
+  background: rgba(17,200,13,1);
+  opacity: 1;
+  position: fixed;
+  top: 65vh;
+  left: 27vw;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05000000074505806);
+  overflow: hidden;
+}
+.button_text {
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 2em;
+  opacity: 1;
+  text-align: center;
+}
+.logo {
+  width: 380px;
+  height: 100px;
+  background: url("../images/v5_0.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  overflow: hidden;
+}
+.logo_text {
+  opacity: 1;
+  position: fixed;
+  top: 0vh;
+  left: 1%;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 2em;
+  opacity: 1;
+  text-align: left;
+  overflow: hidden;
+  
+}
+.textbox_password {
+  width: 50vw;
+  height: 10vh;
+  background: rgba(98,255,25,1);
+  opacity: 0.4000000059604645;
+  position: fixed;
+  top: 50vh;
+  left: 27vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.textfield_password {
+  width: 50vw;
+  color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 30vh;
+  left: 27vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.textfield_username {
+  width: 50vw;
+  color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 26vh;
+  left: 27vw;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 1em;
+  opacity: 1;
+  text-align: left;
+}
+.textbox_username {
+  width: 50vw;
+  height: 10vh;
+  background: rgba(98,255,25,1);
+  opacity: 0.4000000059604645;
+  position: fixed;
+  top: 30vh;
+  left: 27vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
